@@ -22,7 +22,7 @@ body {
   list-style: none;
 }
 @media (max-width: 768px) {
-  .social-icons {
+  .icon {
     display: none;
   }
 }
@@ -96,24 +96,6 @@ nav,
   margin-left: 1rem;
 }
 
-.section__text {
-  padding: 2rem;
-  font-weight: 400;
-  font-size: 1rem;
-  width: fit-content;
-  letter-spacing: -0.05rem;
-  line-height: 1.75rem;
-  color: var(--textoprimario);
-}
-
-.section__text--b {
-  color: var(--textoprimario);
-  padding: 0.2rem;
-  background-color: #212121;
-  border-radius: 0rem;
-  letter-spacing: -0.03rem;
-}
-
 /* SERVICIOS */
 
 .carousel-item {
@@ -122,7 +104,7 @@ nav,
   justify-content: center;
 }
 
-.carousel-item img {
+.carousel {
   border: solid;
   border-width: 0.1rem;
   border-color: var(--colorprimario);
@@ -198,8 +180,8 @@ nav,
   z-index: 10;
   padding: 0 5px;
   display: inline-block;
-  font-size: 3rem;
-  font-weight: 300;
+  /* font-size: 6rem;
+  font-weight: 400; */
   color: var(--textoprimario);
 }
 
@@ -214,35 +196,42 @@ nav,
   z-index: -2;
 }
 
-.servicios__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-}
-
 .section__subtitle {
   position: relative;
   z-index: 10;
   display: inline-block;
-  font-size: 2rem;
-  font-weight: 300;
   color: var(--textoprimario);
   border-bottom: solid;
   border-width: 2px;
   border-color: white;
 }
 
+.section__text {
+  padding: 2rem;
+  width: fit-content;
+  letter-spacing: -0.05rem;
+  line-height: 1.75rem;
+  color: var(--textoprimario);
+}
+
+.section__text--b {
+  color: var(--textoprimario);
+  padding: 0.2rem;
+  background-color: var(--fondosecundario);
+  border-radius: 0rem;
+  letter-spacing: -0.03rem;
+}
+
 .servicios__link {
-  width: 40rem;
   background-color: var(--colorprimario);
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+  .servicios__link {
+  }
 }
 
 @media (max-width: 575px) {
   .servicios__link {
-    width: 50%;
   }
 }
 
@@ -336,7 +325,7 @@ nav,
 }
 
 .img1 {
-  background-image: url(../imgs/Shows/Fiesta3.png);
+  background-image: url(../imgs/shows/fiesta3.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -364,14 +353,14 @@ nav,
 }
 
 .img5 {
-  background-image: url(../imgs/Arq/Edificio.jpg);
+  background-image: url(../imgs/arq/edificio.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
 .img6 {
-  background-image: url(../imgs/Arq/Casa2.jpg);
+  background-image: url(../imgs/arq/casa2.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -385,7 +374,7 @@ nav,
 }
 
 .img8 {
-  background-image: url(../imgs/Shows/Fiesta1.png);
+  background-image: url(../imgs/shows/fiesta1.png);
   background-size: cover;
   background-position: center;
   position: relative;
