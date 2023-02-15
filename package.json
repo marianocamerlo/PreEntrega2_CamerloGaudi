@@ -1,0 +1,25 @@
+{
+  "name": "preentrega2_camerlogaudi",
+  "version": "1.0.0",
+  "description": "PreEntrega2",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianocamerlo/PreEntrega2_CamerloGaudi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianocamerlo/PreEntrega2_CamerloGaudi/issues"
+  },
+  "homepage": "https://github.com/marianocamerlo/PreEntrega2_CamerloGaudi#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

@@ -1,0 +1,15 @@
+@import "_base";
+@import "_variables";
+@import "_mixins";
+
+@import "_nav";
+@import "_footer";
+
+@import "_index";
+@import "_contacto";
+@import "_faq";
+@import "_nosotros";
+@import "_portfolio";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/functions";
