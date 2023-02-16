@@ -18,3 +18,28 @@
   color: #ffffff;
   padding: 0.25rem;
 }
+
+.boton {
+  padding-inline: 2.5rem;
+  border: solid;
+  border-width: 2px;
+  border-radius: 0.25rem;
+  @include color-hov-sl();
+
+  &--enviar {
+    background-color: $colorprimario;
+    border-color: $colorprimario-l;
+
+    &:hover {
+      background-color: $colorprimario-l;
+    }
+  }
+
+  &--borrar {
+    background-color: $colorterciario;
+    border-color: $colorterciario-l;
+    &:hover {
+      background-color: $colorterciario-l;
+    }
+  }
+}

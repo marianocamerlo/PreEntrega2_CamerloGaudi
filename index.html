@@ -3,12 +3,26 @@
   <head>
     <meta charset="UTF-8" />
 
+    <!-- DESCRIPCION -->
+    <meta
+      name="description"
+      content="Servicios de diseño arquitectónico en general y escenografía de eventos. Respaldados por la confianza y gratitud de cada uno de nuestros clientes"
+    />
+
+    <!-- KEYWORDS -->
+    <meta
+      name="keywords"
+      content="arquitectura, diseño, plano, presentación, render, 3d, visualizacion, escenografia, fiestas, noche"
+    />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- TITULO -->
-    <title>Estudio Gaudi</title>
+    <title>
+      Estudio Gaudi. Servicios de diseño arquitectónico y visualización 3d
+    </title>
 
     <!-- FAVICON -->
     <link
@@ -38,10 +52,10 @@
   <body class="bg-black">
     <!-- NAV -->
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark" data-bs-theme="dark">
-        <div class="container bg-black">
+      <div class="container-fluid bg-black">
+        <nav class="navbar navbar-expand-md navbar-dark" data-bs-theme="dark">
           <!-- LOGO -->
-          <a class="navbar-brand logo ms-3" href="index.html"
+          <a class="navbar-brand logo ms-4" href="index.html"
             ><img
               class="img"
               src="imgs/Logos-Iconos/logo_blanco.png"
@@ -66,7 +80,7 @@
           <!-- NAV ITEMS -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
-              class="navbar-nav navbar-default nav-justified ps-5 mx-auto mb-2 mb-lg-0 fw-light fs-5"
+              class="navbar-nav navbar-default nav-justified ps-5 mx-auto mb-2 fw-light"
             >
               <!-- INICIO -->
               <li class="nav-item">
@@ -115,14 +129,12 @@
           </div>
 
           <!-- SOCIAL ICONS -->
-          <ul
-            class="navbar-nav navbar-default d-none d-md-flex ms-auto me-3 ps-5"
-          >
+          <ul class="navbar-nav navbar-default d-none d-md-flex ms-auto">
             <!-- IG -->
             <li class="icon nav-item">
               <a href="https://www.instagram.com/gaudiestudio/" target="_blank"
                 ><svg
-                  class="icon"
+                  class="icon align-text-top"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -141,7 +153,7 @@
             <li class="icon nav-item">
               <a href="https://www.facebook.com/EstudioGaudi" target="_blank"
                 ><svg
-                  class="icon"
+                  class="icon align-text-top"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -156,14 +168,14 @@
               </a>
             </li>
           </ul>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
 
     <main>
       <!-- SERVICIOS -->
-      <section class="container-fluid bg-black py-3">
-        <div class="container carousel">
+      <section class="container bg-black mb-5 py-3">
+        <div class="carousel">
           <div
             id="carouselExampleSlidesOnly"
             class="carousel slide"
@@ -179,7 +191,10 @@
                     alt="home"
                   />
                 </a>
-                <div class="carousel-caption user-select-none text-break lead">
+                <div
+                  class="carousel-caption bg-black user-select-none text-break lead"
+                  style="--bs-bg-opacity: 0.5"
+                >
                   <h2 class="h3 text-center text-uppercase">
                     diseño arquitectónico
                   </h2>
@@ -199,7 +214,10 @@
                     alt="home"
                   />
                 </a>
-                <div class="carousel-caption user-select-none text-break lead">
+                <div
+                  class="carousel-caption bg-black user-select-none text-break lead"
+                  style="--bs-bg-opacity: 0.5"
+                >
                   <h2 class="h3 text-center text-uppercase">
                     diseño de interiores
                   </h2>
@@ -219,7 +237,10 @@
                     alt="home"
                   />
                 </a>
-                <div class="carousel-caption user-select-none text-break lead">
+                <div
+                  class="carousel-caption bg-black user-select-none text-break lead"
+                  style="--bs-bg-opacity: 0.5"
+                >
                   <h2 class="h3 text-center text-uppercase">
                     visualización 3d
                   </h2>
@@ -239,7 +260,10 @@
                     alt="home"
                   />
                 </a>
-                <div class="carousel-caption user-select-none text-break lead">
+                <div
+                  class="carousel-caption bg-black user-select-none text-break lead"
+                  style="--bs-bg-opacity: 0.5"
+                >
                   <h2 class="h3 text-center text-uppercase">
                     diseño escenográfico
                   </h2>
@@ -255,74 +279,66 @@
       </section>
 
       <!-- GALERIA -->
-      <div
-        class="cards-container img-thumbnail container-fluid mt-3 p-5 bg-white"
-      >
-        <div class="gallery container-fluid mx-auto">
-          <h2 class="lead display-4">Ultimos trabajos</h2>
-        </div>
-
-        <!-- TARJETA 1 -->
-        <!-- <div class="img-fluid cards img1">
-          <div class="card__info px-3 py-3">
-            <h3>Arre Crew</h3>
-            <p>Diseñador: Mariano Gaudi</p>
+      <div class="cards-container img-thumbnail container mt-3 p-5 bg-white">
+        <div class="row">
+          <div class="gallery col-sm-12 col-md-3 container-fluid mx-auto">
+            <h2 class="lead display-4">Ultimos trabajos</h2>
           </div>
-        </div> -->
 
-        <!-- TARJETA 2 -->
-        <div class="img-fluid cards img2">
-          <div class="card__info px-3 py-3">
-            <h3>Hotel Paraiso</h3>
-            <p>Diseñador: Arq. Alessandro Gaudi</p>
+          <!-- TARJETA 1 -->
+          <div class="img-fluid col-sm-6 col-md-3 cards img2">
+            <div class="card__info px-3 py-3">
+              <h3>Hotel Paraiso</h3>
+              <p>Diseñador: Arq. Alessandro Gaudi</p>
+            </div>
           </div>
-        </div>
 
-        <!-- TARJETA 3 -->
-        <div class="img-fluid cards img3">
-          <div class="card__info px-3 py-3">
-            <h3>Casa Noruega</h3>
-            <p>Diseñador: Arq. Alessandro Gaudi</p>
+          <!-- TARJETA 2 -->
+          <div class="img-fluid col-sm-6 col-md-3 cards img3">
+            <div class="card__info px-3 py-3">
+              <h3>Casa Noruega</h3>
+              <p>Diseñador: Arq. Alessandro Gaudi</p>
+            </div>
           </div>
-        </div>
 
-        <!-- TARJETA 4 -->
-        <div class="img-fluid cards img4">
-          <div class="card__info px-3 py-3">
-            <h3>Casa Tulúm</h3>
-            <p>Diseñadores: Arq. Alessandro Gaudi, Mariano Gaudi</p>
+          <!-- TARJETA 3 -->
+          <div class="img-fluid col-sm-6 col-md-3 cards img4">
+            <div class="card__info px-3 py-3">
+              <h3>Casa Tulúm</h3>
+              <p>Diseñadores: Arq. Alessandro Gaudi, Mariano Gaudi</p>
+            </div>
           </div>
-        </div>
 
-        <!-- TARJETA 5 -->
-        <div class="img-fluid cards img5">
-          <div class="card__info px-3 py-3">
-            <h3>Edificio Santander</h3>
-            <p>Diseñador: Arq. Alessandro Gaudi</p>
+          <!-- TARJETA 4 -->
+          <div class="img-fluid col-sm-6 col-md-3 cards img5">
+            <div class="card__info px-3 py-3">
+              <h3>Edificio Santander</h3>
+              <p>Diseñador: Arq. Alessandro Gaudi</p>
+            </div>
           </div>
-        </div>
 
-        <!-- TARJETA 6 -->
-        <div class="img-fluid cards img6">
-          <div class="card__info px-3 py-3">
-            <h3>Casa Barcelona</h3>
-            <p>Diseñador: Arq. Alessandro Gaudi</p>
+          <!-- TARJETA 5 -->
+          <div class="img-fluid col-sm-6 col-md-3 cards img6">
+            <div class="card__info px-3 py-3">
+              <h3>Casa Barcelona</h3>
+              <p>Diseñador: Arq. Alessandro Gaudi</p>
+            </div>
           </div>
-        </div>
 
-        <!-- TARJETA 7 -->
-        <div class="img-fluid cards img7">
-          <div class="card__info px-3 py-3">
-            <h3>Casa Futura</h3>
-            <p>Diseñador: Arq. Alessandro Gaudi</p>
+          <!-- TARJETA 6 -->
+          <div class="img-fluid col-sm-6 col-md-3 cards img7">
+            <div class="card__info px-3 py-3">
+              <h3>Casa Futura</h3>
+              <p>Diseñador: Arq. Alessandro Gaudi</p>
+            </div>
           </div>
-        </div>
 
-        <!-- TARJETA 8 -->
-        <div class="img-fluid cards img8">
-          <div class="card__info px-3 py-3">
-            <h3>Closer</h3>
-            <p>Diseñador: Mariano Gaudi</p>
+          <!-- TARJETA 7 -->
+          <div class="img-fluid col-sm-6 col-md-3 cards img8">
+            <div class="card__info px-3 py-3">
+              <h3>Closer</h3>
+              <p>Diseñador: Mariano Gaudi</p>
+            </div>
           </div>
         </div>
       </div>
@@ -393,7 +409,6 @@
                 >Mariano Gaudi</a
               >
             </p>
-            >
           </div>
         </div>
       </section>

@@ -1,6 +1,9 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 @import "_base";
 @import "_variables";
 @import "_mixins";
+@import "_breakpoint";
 
 @import "_nav";
 @import "_footer";
@@ -10,6 +13,3 @@
 @import "_faq";
 @import "_nosotros";
 @import "_portfolio";
-
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../node_modules/bootstrap/scss/functions";
